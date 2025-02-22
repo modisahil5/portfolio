@@ -1,0 +1,48 @@
+<section class="section" id="jobs">
+  <div class="container jobs">
+    <div class="section-box">
+      <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="e-font section-title">
+          <span class="code-font n-section-title">02.</span> Experience
+        </h3>
+      </div>
+
+      <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
+        <ul ngbNav #nav="ngbNav" [(activeId)]="active" orientation="vertical" class="nav-tabs jobs-tabs">
+          <!-- Junior Software Developer -->
+          <li [ngbNavItem]="0">
+            <a ngbNavLink>Denali Software Solutions</a>
+            <ng-template ngbNavContent>
+              <h4 class="title-tab-content">
+                Junior Software Developer |
+                <span class="company-tab-content">Denali Software Solutions</span>
+              </h4>
+              <h5 class="job-time">07/2024 – 02/2025 | Ahmedabad</h5>
+              <p class="job-description">- Contributed to three major projects, working extensively on both frontend (Angular, Razor Views) and backend (ASP.NET MVC, Web API) development.</p>
+              <p class="job-description">- Optimized SQL queries and implemented stored procedures, improving application performance.</p>
+              <p class="job-description">- Developed secure role-based access control systems using ASP.NET MVC and Web API, ensuring seamless integration between modules.</p>
+              <p class="job-description">- Designed and implemented dynamic, interactive front-end features using Angular and Razor Views, enhancing user experience by reducing response times.</p>
+              <p class="job-description">- Collaborated in an Agile framework, actively participating in sprints and retrospectives to ensure timely delivery of sprint goals.</p>
+              <p class="job-description">- Provided valuable feedback to refine development processes, fostering continuous improvement.</p>
+            </ng-template>
+          </li>
+
+          <!-- Software Intern -->
+          <li [ngbNavItem]="1">
+            <a ngbNavLink>Denali Software Solutions</a>
+            <ng-template ngbNavContent>
+              <h4 class="title-tab-content">
+                Software Intern |
+                <span class="company-tab-content">Denali Software Solutions</span>
+              </h4>
+              <h5 class="job-time">01/2024 – 06/2024 | Ahmedabad</h5>
+              <p class="job-description">- Built dynamic web applications using ASP.NET Core MVC and .NET.</p>
+              <p class="job-description">- Contributed to the development of RESTful APIs, improving integration with third-party services.</p>
+            </ng-template>
+          </li>
+        </ul>
+        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+      </div>
+    </div>
+  </div>
+</section>

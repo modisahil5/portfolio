@@ -1,0 +1,19 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/modi-sahil-35164a1b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:sahmodi552@gmail.com" target='_blank'>sahimodi552&#64;gmail.com </a>
+        </div>
+    </div>
+
+    <!-- <div class="footer-credits text-center" >
+            <div>Built with Software  by Sahil Modi</div>
+    </div> -->
+
+</footer>
