@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1751801256902,
+  "timestamp": 1751802305495,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/portfolio/index.html",
-        "/portfolio/main.79309b156b7b1d94.js",
+        "/portfolio/main.fd221e7955bc758c.js",
         "/portfolio/manifest.webmanifest",
         "/portfolio/polyfills.3d530d491857c538.js",
         "/portfolio/runtime.3d228e631dea61a8.js",
@@ -222,8 +222,8 @@
     "/portfolio/fa-solid-900.6a636d7efad00430.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/portfolio/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "/portfolio/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
-    "/portfolio/index.html": "d0423e01f37e957ac901603272cfc32693061249",
-    "/portfolio/main.79309b156b7b1d94.js": "17e97f95bc7dce7a6c2c08fca2f72adb54b4672e",
+    "/portfolio/index.html": "4430a0c7134d7de16cf4e68410c0a18beb3cdc4b",
+    "/portfolio/main.fd221e7955bc758c.js": "e942ae2a2e9e5947e3cdaa71214b800a65c3df85",
     "/portfolio/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "/portfolio/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "/portfolio/polyfills.3d530d491857c538.js": "3c337a83541dcef91ffeb0622ee54ecbe2210dbb",
