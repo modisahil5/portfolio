@@ -9,37 +9,64 @@
 
       <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
         <ul ngbNav #nav="ngbNav" [(activeId)]="active" orientation="vertical" class="nav-tabs jobs-tabs">
-          <!-- Junior Software Developer -->
-          <li [ngbNavItem]="0">
+
+          <!-- Junior Software Developer - NCoreSoft -->
+       <!-- Junior Software Developer - NCoreSoft -->
+<li [ngbNavItem]="0">
+  <a ngbNavLink>NCoreSoft Technology</a>
+  <ng-template ngbNavContent>
+    <h4 class="title-tab-content">
+      Junior Software Developer |
+      <span class="company-tab-content">NCoreSoft Technology</span>
+    </h4>
+    <h5 class="job-time">02/2025 – Present | Ahmedabad</h5>
+    <p class="job-description">- Worked as a Full Stack Developer on Angular and .NET Core projects, contributing to both frontend and backend development.</p>
+    <p class="job-description">- Designed and developed scalable and modular architecture for web applications, focusing on performance and maintainability.</p>
+    <p class="job-description">- Built and optimized CI/CD pipelines using Azure DevOps and GitHub Actions, streamlining release cycles and reducing manual errors.</p>
+    <p class="job-description">- Gained hands-on experience with cloud platforms like AWS and Microsoft Azure, deploying services and managing cloud infrastructure.</p>
+    <p class="job-description">- Implemented Infrastructure as Code (IaC) concepts using tools like ARM templates and AWS CloudFormation.</p>
+    <p class="job-description">- Handled complex frontend implementations using Angular, enhancing UI responsiveness and performance.</p>
+    <p class="job-description">- Created and tuned stored procedures in SQL Server, improving backend data processing speed and reliability.</p>
+    <p class="job-description">- Collaborated in Agile ceremonies including sprint planning, daily standups, and retrospectives to ensure alignment with business goals.</p>
+  </ng-template>
+</li>
+
+
+          <!-- Junior Software Developer - Denali -->
+          <li [ngbNavItem]="1">
             <a ngbNavLink>Denali Software Solutions</a>
             <ng-template ngbNavContent>
               <h4 class="title-tab-content">
                 Junior Software Developer |
                 <span class="company-tab-content">Denali Software Solutions</span>
               </h4>
-              <h5 class="job-time">07/2024 – 02/2025 | Ahmedabad</h5>
-              <p class="job-description">- Contributed to three major projects, working extensively on both frontend (Angular, Razor Views) and backend (ASP.NET MVC, Web API) development.</p>
-              <p class="job-description">- Optimized SQL queries and implemented stored procedures, improving application performance.</p>
-              <p class="job-description">- Developed secure role-based access control systems using ASP.NET MVC and Web API, ensuring seamless integration between modules.</p>
-              <p class="job-description">- Designed and implemented dynamic, interactive front-end features using Angular and Razor Views, enhancing user experience by reducing response times.</p>
-              <p class="job-description">- Collaborated in an Agile framework, actively participating in sprints and retrospectives to ensure timely delivery of sprint goals.</p>
-              <p class="job-description">- Provided valuable feedback to refine development processes, fostering continuous improvement.</p>
+              <h5 class="job-time">01/2024 – 02/2025 | Ahmedabad</h5>
+              <p class="job-description">- Contributed to three major projects, actively working on both frontend (Angular, Razor Views) and backend (ASP.NET MVC, Web API) development.</p>
+              <p class="job-description">- Optimized SQL queries and implemented stored procedures, significantly enhancing application performance.</p>
+              <p class="job-description">- Developed secure, role-based access control systems with ASP.NET MVC and Web API, ensuring seamless module integration.</p>
+              <p class="job-description">- Designed and developed interactive front-end features using Angular and Razor Views, improving user experience and responsiveness.</p>
+              <p class="job-description">- Collaborated in Agile sprints, contributing to planning, retrospectives, and on-time delivery of project milestones.</p>
+              <p class="job-description">- Provided constructive feedback to improve coding standards and team workflows.</p>
             </ng-template>
           </li>
 
-          <!-- Software Intern -->
-          <li [ngbNavItem]="1">
-            <a ngbNavLink>Denali Software Solutions</a>
-            <ng-template ngbNavContent>
-              <h4 class="title-tab-content">
-                Software Intern |
-                <span class="company-tab-content">Denali Software Solutions</span>
-              </h4>
-              <h5 class="job-time">01/2024 – 06/2024 | Ahmedabad</h5>
-              <p class="job-description">- Built dynamic web applications using ASP.NET Core MVC and .NET.</p>
-              <p class="job-description">- Contributed to the development of RESTful APIs, improving integration with third-party services.</p>
-            </ng-template>
-          </li>
+       <!-- Foundation in Software & Web Development -->
+<li [ngbNavItem]="2">
+  <a ngbNavLink>Demaze Technology</a>
+  <ng-template ngbNavContent>
+    <h4 class="title-tab-content">
+      Software Developer |
+      <span class="company-tab-content">Demaze Technology</span>
+    </h4>
+    <h5 class="job-time">10/2022 – 10/2023 | Ahmedabad</h5>
+    <p class="job-description">- Gained hands-on experience in the fundamentals of software development using C#, .NET Core, and object-oriented programming concepts.</p>
+    <p class="job-description">- Learned the basics of web development including HTML, CSS, JavaScript, and how to build responsive UIs with Bootstrap.</p>
+    <p class="job-description">- Built simple CRUD applications using ASP.NET Core MVC and Entity Framework to understand backend workflows and database integration.</p>
+    <p class="job-description">- Explored REST API design, debugging techniques, and software development lifecycle concepts (SDLC).</p>
+    <p class="job-description">- Practiced version control using Git and participated in personal or small collaborative projects to build practical skills.</p>
+  </ng-template>
+</li>
+
         </ul>
         <div [ngbNavOutlet]="nav" class="mt-2"></div>
       </div>
